@@ -1,0 +1,4 @@
+#Wed Nov 30 15:48:07 IST 2022
+base.0=/home/jarvis/GS_FINAL/GS_70/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

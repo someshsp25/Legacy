@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_tint_default.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/jarvis/GS_FINAL/GS_70/build/image_cropper/intermediates/merged_res/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/jarvis/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/res/color-v23/abc_color_highlight_material.xml"
+    }
+]
