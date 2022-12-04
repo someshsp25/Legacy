@@ -18,102 +18,107 @@ class _LandingState extends State<Landing> {
       //backgroundColor: Colors.grey.shade200,
       body: SafeArea(
         child: Container(
-          width: double.infinity,
+          width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
-          child: Column(
-            children: <Widget>[
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                'Legacy',
-                style: TextStyle(
-                  fontSize: 70,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'BilboSwashCaps-Regular',
+          child: Container(
+            child: Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 20,
                 ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                'Celebrating 70 years of excellence....',
-                style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'BilboSwashCaps-Regular',
+                Text(
+                  'Legacy',
+                  style: TextStyle(
+                    //fontSize: 70,
+                    fontSize: MediaQuery.of(context).size.height/10,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'BilboSwashCaps-Regular',
+                  ),
                 ),
-              ),
-              SizedBox(
-                height: 60,
-              ),
-              Container(
-                width: double.infinity,
-                height: 350,
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage('assets/images/chat.png'),
-                    )
+                SizedBox(
+                  height: 20,
                 ),
-              ),
-              SizedBox(
-                height: 0,
-              ),
-              Container(
-                margin: EdgeInsets.fromLTRB(50,40,50,30),
-                child: MaterialButton(
-                  height: 50,
-                  minWidth: double.infinity,
-                  onPressed: () {
-                    Navigator.of(context).pushReplacement(
-                      CupertinoPageRoute(
-                        builder: (_) => Login(),
+                Text(
+                  'Celebrating 70 years of excellence....',
+                  style: TextStyle(
+                    //fontSize: 30,
+                    fontSize: MediaQuery.of(context).size.height/30,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'BilboSwashCaps-Regular',
+                  ),
+                ),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height/20,
+                ),
+                Container(
+                  width: double.infinity,
+                  //height: 350,
+                  height: MediaQuery.of(context).size.height/2.5,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/chat.png'),
+                      )
+                  ),
+                ),
+                SizedBox(
+                  height: 0,
+                ),
+                Container(
+                  margin: EdgeInsets.fromLTRB(50,40,50,30),
+                  child: MaterialButton(
+                    height: 50,
+                    minWidth: double.infinity,
+                    onPressed: () {
+                      Navigator.of(context).pushReplacement(
+                        CupertinoPageRoute(
+                          builder: (_) => Login(),
+                        ),
+                      );
+                    },
+                    color: Colors.blueAccent[700],
+                    shape: RoundedRectangleBorder(
+                      side: BorderSide(
+                        color: Colors.black,
                       ),
-                    );
-                  },
-                  color: Colors.blueAccent[700],
-                  shape: RoundedRectangleBorder(
-                    side: BorderSide(
-                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(50),
                     ),
-                    borderRadius: BorderRadius.circular(50),
-                  ),
-                  child: Text('Log-in' , style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 18,
-                    color: Colors.white,
-                  ),
+                    child: Text('Log-in' , style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 18,
+                      color: Colors.white,
+                    ),
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                margin: EdgeInsets.fromLTRB(50,10,50,10),
-                child: MaterialButton(
-                  height: 50,
-                  minWidth: double.infinity,
-                  onPressed: () {
-                    Navigator.of(context).pushReplacement(
-                      CupertinoPageRoute(
-                        builder: (_) => Register(),
+                Container(
+                  margin: EdgeInsets.fromLTRB(50,10,50,7),
+                  child: MaterialButton(
+                    height: 50,
+                    minWidth: double.infinity,
+                    onPressed: () {
+                      Navigator.of(context).pushReplacement(
+                        CupertinoPageRoute(
+                          builder: (_) => Register(),
+                        ),
+                      );
+                    },
+                    color: Colors.blueAccent[700],
+                    shape: RoundedRectangleBorder(
+                      side: BorderSide(
+                        color: Colors.black,
                       ),
-                    );
-                  },
-                  color: Colors.blueAccent[700],
-                  shape: RoundedRectangleBorder(
-                    side: BorderSide(
-                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(50),
                     ),
-                    borderRadius: BorderRadius.circular(50),
-                  ),
-                  child: Text('Sign-up' , style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 18,
-                    color: Colors.white,
-                  ),
+                    child: Text('Sign-up' , style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 18,
+                      color: Colors.white,
+                    ),
+                    ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
